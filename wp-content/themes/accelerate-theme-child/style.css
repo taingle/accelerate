@@ -12,29 +12,33 @@
 
 @import url("../accelerate-theme/style.css");
 
-<<<<<<< HEAD
-body {
-	color: red;
-}
-=======
+
 .home-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
-    height: 440px;
-    margin: 0 0 80px;
-    padding: 100px 0;
 }
 
 #masthead {
     background: none repeat scroll 0 0 #45ac9d;
 }
 
-.button {
-    background: none repeat scroll 0 0 #45ac9d;
+#masthead nav ul {
+overflow:hidden;
 }
+
 #masthead nav ul li {
 	float: left;
 	margin: 0 10px;
 }
+
+.button {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 /* BLOG STYLES */
 .blog-post {
 	width: 50%
@@ -58,11 +62,12 @@ body {
 	font-family: 'Montserrat';
 	font-weight: bold;
 }
->>>>>>> create-child-theme
 
-//Case Studies Styles
+/*Case Studies Styles*/
 article.case-study {
 	margin: 40px 0 0;
+	width: 100%;
+	overflow: hidden;
 }
 aside.case-study-sidebar {
   float: left;
@@ -71,6 +76,7 @@ aside.case-study-sidebar {
 }
 
 div.case-study-images {
+  margin-top: 30px;
   float: left;
   width: 606px;
 }
@@ -81,3 +87,30 @@ div.case-study-images img {
   width: 315px;
   height: auto;
 }
+/*Homepage Case Studies Styles */
+.featured-work h5{
+	color: inherit;
+	text-align: center;
+	text-transform: uppercase;
+}
+.homepage-featured-work li{
+	display: inline-block;
+	text-align: center;
+	margin-right: 10px;
+}
+.homepage-featured-work h3 {
+	text-align: center;
+}
+.individual-featured-work img {
+	width: 100%;
+	margin-right: 3%;
+}
+.individual-featured-work figure {
+	text-align: center;
+}
+.individual-featured-work h5 {
+	text-align: center;
+	font-weight: 400;
+	margin-top: 20px;
+}
+
