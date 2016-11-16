@@ -34,11 +34,6 @@ overflow:hidden;
     background: none repeat scroll 0 0 #45ac9d;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 /* BLOG STYLES */
 .blog-post {
 	width: 50%
@@ -84,8 +79,8 @@ div.case-study-images {
 div.case-study-images img {
   margin-bottom: 50px;
   border: 1px solid #dddddd;
-  width: 315px;
   height: auto;
+  width: 500px;
 }
 /*Homepage Case Studies Styles */
 .featured-work h5{
